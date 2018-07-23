@@ -1,0 +1,72 @@
+#body {
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+#body .content {
+	position: relative;
+	width: 100%;
+}
+#body .content img {
+	position: relative;
+	width: 100%;
+}
+#body .content .ttl-main {
+	position: absolute;
+	width: 100%;
+	top: 90px;
+	font-family: 'fontPrimetime';
+	font-size: 22pt;
+	font-weight: 600;
+	line-height: 1.5;
+	text-align: center;
+	z-index: 1;
+	color: rgba(0,0,0,0.84);
+}
+#body .content .desc {
+	position: absolute;
+	width: 400px;
+	z-index: 1;
+	color: rgba(0,0,0,0.84);
+}
+#body .content .desc h1 {
+	font-family: 'fontMdBt';
+	font-size: 28pt;
+	padding-bottom: 25px;
+}
+#body .content .desc h1 .spc {
+	color: #dd1f0d;
+}
+#body .content .desc p {
+	font-family: 'fontCovesBold';
+	font-size: 14pt;
+	line-height: 1.5;
+}
+#body .content .desc ul {
+	position: relative;
+	width: calc(100% - 100px);
+	padding: 0 50px;
+}
+#body .content .desc ul li {
+	color: #dd1f0d;
+	font-family: 'fontCovesBold';
+	font-size: 14pt;
+	line-height: 2;
+}
+#body .content .desc ul li span {
+	color: rgba(0,0,0,0.84);
+}
+#body .content .desc ol {
+	font-size: 14pt;
+}
+#body .content .desc ol li {
+	color: rgba(0,0,0,0.84);
+	font-family: 'fontCovesBold';
+	line-height: 2;
+}
+.ctn-bottom {
+	position: fixed;
+	width: 350px;
+	bottom: 20px;
+	right: 30px;
+}

@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'fontMdBt';
+	src: url('../fonts/Futura/futura_medium_bt.ttf');
+}
+@font-face {
+	font-family: 'fontCovesBold';
+	src: url('../fonts/CovesTypeface/CovesBold.otf');
+}
+@font-face {
+	font-family: 'fontPrimetime';
+	src: url('../fonts/Primetime/Primetime.ttf');
+}
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+html {
+	background-color: #e5e5e5;
+}
+.ctn {
+	color: #0b3b5f;
+}
+
+.bg-image {
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
